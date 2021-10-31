@@ -8,11 +8,18 @@
   "scripts": {
     "build": "rimraf bin && tsc"
   },
+  "dependencies": {
+    "got": "^11.8.2",
+    "ws": "^8.2.3"
+  },
   "devDependencies": {
-    "@babel/cli": "^7.15.7",
-    "@babel/core": "^7.15.8",
-    "@babel/node": "^7.15.8",
-    "@babel/preset-typescript": "^7.15.0",
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/node": "^7.16.0",
+    "@babel/preset-typescript": "^7.16.0",
+    "@types/got": "^9.6.12",
+    "@types/node": "^16.11.6",
+    "@types/ws": "^8.2.0",
     "@typescript-eslint/eslint-plugin": "^5.2.0",
     "@typescript-eslint/parser": "^5.2.0",
     "eslint": "^8.1.0",

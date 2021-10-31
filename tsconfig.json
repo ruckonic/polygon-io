@@ -2,7 +2,7 @@
   "compilerOptions": {
     /* Visit https://aka.ms/tsconfig.json to read more about this file */
     "outDir": "./bin",
-    "target": "es5",
+    "target": "ES6",
     "module": "commonjs",
     "rootDir": "./src",
     "esModuleInterop": true,
